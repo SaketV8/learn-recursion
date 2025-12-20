@@ -15,10 +15,10 @@ learning recursion to increase my chances of solving any DSA question encountere
 ## Day 2
 > 20 Dec, 2025
 
-- [ ] print zig-zag
-- [ ] tower-of-hanoi
-- [ ] print array element
-- [ ] print array element in reverse
-- [ ] max of an array
+- [x] print zig-zag (pre-in-post)
+- [x] tower-of-hanoi
+- [x] print array element
+- [x] print array element in reverse
+- [x] max array element
 - [ ] first index of occurance in array
-- [ ] last index of occurance
+- [ ] last index of occurance in array
