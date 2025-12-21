@@ -20,5 +20,5 @@ learning recursion to increase my chances of solving any DSA question encountere
 - [x] print array element
 - [x] print array element in reverse
 - [x] max array element
-- [ ] first index of occurance in array
-- [ ] last index of occurance in array
+- [x] first index of occurance in array
+- [x] last index of occurance in array
