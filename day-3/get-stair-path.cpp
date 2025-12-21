@@ -55,3 +55,67 @@ int main() {
 
   return 0;
 }
+
+// ===============================================================================
+// ===============================================================================
+
+// In case, we only need no of path (this is for climbing up)
+int climbStairs2(int n) {
+  // base case
+  if (n == 0) {
+    return 1;
+  } else if (n < 0) {
+    return 0;
+  }
+
+  // main
+  // for climbing up, we are doing n-1, n-2
+  // because these tells us about the remaining steps
+  int ways1 = climbStairs2(n - 1);
+  int ways2 = climbStairs2(n - 2);
+
+  int result = 0;
+  result += ways1;
+  result += ways2;
+
+  return result;
+}
+
+// ===============================================================================
+// ===============================================================================
+
+// In case, we only need no of path (this is for climbing up)
+// using dp to solve the Leetcode problem
+vector<int> dp;
+int climbStairs3(int n) {
+  // init the dp
+  if (dp.empty()) {
+    dp.assign(n + 1, -1);
+  }
+
+  // base case
+  if (n == 0) {
+    return 1;
+  } else if (n < 0) {
+    return 0;
+  }
+
+  // main code
+
+  // if dp have the value use it
+  if (dp[n] != -1) {
+    return dp[n];
+  }
+  // for climbing up, we are doing n-1, n-2
+  // because these tells us about the remaining steps
+  int ways1 = climbStairs3(n - 1);
+  int ways2 = climbStairs3(n - 2);
+
+  int result = 0;
+  result += ways1;
+  result += ways2;
+
+  // setting up the dp value
+  dp[n] = result;
+  return result;
+}
