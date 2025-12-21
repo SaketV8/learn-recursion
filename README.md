@@ -27,6 +27,16 @@ learning recursion to increase my chances of solving any DSA question encountere
 > 21 Dec, 2025
 
 - [x] all indices in array
-- [x] get subseuqence
+- [x] get subsequence
 - [x] get keypad combination
 - [x] get stair path
+
+## Day 4
+> 22 Dec, 2025
+
+- [ ] get maze path
+- [ ] get maze path with jump
+- [ ] print subsequence
+- [ ] print keypad combination
+- [ ] print stair path
+- [ ] print maze path
