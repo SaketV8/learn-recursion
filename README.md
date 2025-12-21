@@ -22,3 +22,11 @@ learning recursion to increase my chances of solving any DSA question encountere
 - [x] max array element
 - [x] first index of occurance in array
 - [x] last index of occurance in array
+
+## Day 3
+> 21 Dec, 2025
+
+- [ ] all indices in array
+- [ ] get subseuqence
+- [ ] get keypad combination
+- [ ] get stair path
