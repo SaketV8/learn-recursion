@@ -34,9 +34,9 @@ learning recursion to increase my chances of solving any DSA question encountere
 ## Day 4
 > 22 Dec, 2025
 
-- [ ] get maze path
-- [ ] get maze path with jump
-- [ ] print subsequence
-- [ ] print keypad combination
-- [ ] print stair path
-- [ ] print maze path
+- [x] get maze path
+- [x] get maze path with jump
+- [x] print subsequence
+- [x] print keypad combination
+- [x] print stair path
+- [x] print maze path

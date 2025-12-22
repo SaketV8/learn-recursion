@@ -32,9 +32,11 @@ vector<string> getKPC(string str) {
   // now we can add the each char of 6 string from codes to the rres to get the
   // mres
   string code_for_ch = codes[ch - '0'];
+  // ex. 6 --> pqrs
   // for (int i = 0; i < code_for_ch.size(); i++) {
   for (size_t i = 0; i < code_for_ch.size(); i++) {
     // getting each char <from code_for_ch> to add in each word in rres
+    // ex. char_from_code = "pqrs" ==> char_from_code.at(i) --> p, q, r, s
     char char_from_code = code_for_ch.at(i);
 
     for (auto &s : rres) {
