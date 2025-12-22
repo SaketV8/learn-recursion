@@ -40,3 +40,14 @@ learning recursion to increase my chances of solving any DSA question encountere
 - [x] print keypad combination
 - [x] print stair path
 - [x] print maze path
+
+## Day 5
+> 23 Dec, 2025
+
+- [ ] print maze path with jump
+- [ ] print permutation
+- [ ] print encoding
+- [ ] flood fill
+- [ ] target sum subsets
+- [ ] n queens
+- [ ] knight tour
