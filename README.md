@@ -1,6 +1,6 @@
 <h1 align="center">Learn Recursion</h1>
 
-learning recursion to increase my chances of solving any DSA question encountered in interviews -_-
+learning recursion to increase my chances of solving any DSA question encountered in interviews (-_-)
 
 ## Day 1
 > 19 Dec, 2025
@@ -42,11 +42,14 @@ learning recursion to increase my chances of solving any DSA question encountere
 - [x] print maze path
 
 ## Day 5
-> 23 Dec, 2025
+> 23 Dec, 2025 || solved first 3 on 25 Dec, 2025
 
-- [ ] print maze path with jump
-- [ ] print permutation
-- [ ] print encoding
+> [!NOTE]  
+> I’ll solve the remaining problems after my university exam (-_-)
+
+- [x] print maze path with jump
+- [x] print permutation
+- [x] print encoding
 - [ ] flood fill
 - [ ] target sum subsets
 - [ ] n queens
