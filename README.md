@@ -2,7 +2,7 @@
 
 learning recursion to increase my chances of solving any DSA question encountered in interviews (-_-)
 
-### [Everything All At Once (～￣▽￣)～](./EVERYTHING_ALL_AT_ONCE.md)
+### [🌸 Everything All At Once (～￣▽￣)～](./EVERYTHING_ALL_AT_ONCE.md)
 
 ## Day 1
 > 19 Dec, 2025
@@ -53,7 +53,15 @@ learning recursion to increase my chances of solving any DSA question encountere
 - [x] print maze path with jump
 - [x] print permutation
 - [x] print encoding
-- [ ] flood fill
-- [ ] target sum subsets
-- [ ] n queens
-- [ ] knight tour
+- [ ] ~~flood fill~~
+- [ ] ~~target sum subsets~~
+- [ ] ~~n queens~~
+- [ ] ~~knight tour~~
+
+## Day 6
+> 31 March, 2025
+
+- [x] flood fill
+- [x] target sum subsets
+- [x] n queens
+- [x] knight tour
