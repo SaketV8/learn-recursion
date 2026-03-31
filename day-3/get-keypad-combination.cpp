@@ -47,12 +47,37 @@ vector<string> getKPC(string str) {
 
   return mres;
 }
+
+vector<string> getKPC2(string str) {
+  // base case
+  if (str.size() == 0) {
+    return {""};
+  }
+
+  char ch = str[0];
+  string ros = str.substr(1);
+
+  // faith
+  vector<string> rres = getKPC2(ros);
+
+  vector<string> result;
+  string string_from_code = codes[ch - '0'];
+  for (string &s : rres) {
+
+    for (auto &ch : string_from_code) {
+      result.push_back(ch + s);
+    }
+  }
+
+  return result;
+}
 int main() {
 
   cout << "get keypad combination" << endl << endl;
 
   cout << "[ ";
-  vector<string> words = getKPC("678");
+  // vector<string> words = getKPC("678");
+  vector<string> words = getKPC2("678");
   for (auto &s : words) {
     cout << s << ", ";
   }

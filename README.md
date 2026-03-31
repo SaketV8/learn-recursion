@@ -2,6 +2,8 @@
 
 learning recursion to increase my chances of solving any DSA question encountered in interviews (-_-)
 
+### [Everything All At Once (～￣▽￣)～](./EVERYTHING_ALL_AT_ONCE.md)
+
 ## Day 1
 > 19 Dec, 2025
 
@@ -30,6 +32,7 @@ learning recursion to increase my chances of solving any DSA question encountere
 - [x] get subsequence
 - [x] get keypad combination
 - [x] get stair path
+- [x] stair path base helper (for explaining `base` case of `get-stair-path`)
 
 ## Day 4
 > 22 Dec, 2025
