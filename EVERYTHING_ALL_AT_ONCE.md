@@ -1608,12 +1608,47 @@ void printEncoding2(string ques, string asf) {
   }
 }
 
+// =============================================================
+// Approach 3
+// =============================================================
+
+void printEncoding4(string ques, string asf) {
+  // base case
+  if (ques.size() == 0) {
+    cout << asf << endl;
+    count++;
+    return;
+  }
+
+  // take only one char
+  char ch = ques[0];
+  // wo ek char zero nahi hona chahiye
+  if (ch != '0') {
+    int chv = ch - '0';
+    // 1 --> a, 2 --> b and so on....
+    char code = (char)(chv + 'a' - 1);
+
+    string ros = ques.substr(1);
+    printEncoding4(ros, asf + code);
+  }
+
+  // take two char
+  string ch2 = ques.substr(0, 2);
+  int ch2v = stoi(ch2);
+  if (ch2v >= 10 && ch2v <= 26) {
+    char code = (char)(ch2v + 'a' - 1);
+    string ros2 = ques.substr(2);
+    printEncoding4(ros2, asf + code);
+  }
+}
+
 int main() {
 
   cout << "print encoding" << endl << endl;
 
   // printEncoding("123", "");
-  printEncoding2("123", "");
+  // printEncoding2("123", "");
+  printEncoding4("123", "");
   cout << "Total no. of the ansers: " << count << endl;
   return 0;
 }
